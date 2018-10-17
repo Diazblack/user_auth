@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'User goes to index and create a new account' do
   it "user create an account" do
-    visit users_path
+    visit login_index_path
 
     click_on ".Create A New Account"
 
